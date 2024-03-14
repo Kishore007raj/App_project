@@ -1,6 +1,6 @@
 #---PIP PACKAGES----#
 import streamlit as st
-from ApiNinjas import random_word
+from random_word import ApiNinjas
 import requests
 
 #---BUILT IN PYTHON PACKAGES----#

@@ -8,7 +8,7 @@ import secrets
 import string
 
 #---STREAMLIT SETTINGS---#
-page_title = "Password & Passphrase Generator"
+page_title = "PW & PW-Sentence Generator"
 page_icon = ":building_construction:"
 layout = "centered"
 
@@ -33,7 +33,7 @@ def generate_pw()->None:
     letters = string.ascii_letters
     digits = string.digits  
     alphabet = letters + digits
-    pwd_length = 14
+    pwd_length = 15
     pwd = ''
     for i in range(pwd_length):
         pwd += ''.join(secrets.choice(alphabet))
@@ -80,7 +80,7 @@ col1,col2 = st.columns([4,4], gap = "large")
 
 
 with col1:
-    st.caption("Secure password length is set at 14 chars.")
+    st.caption("Secure password length is set at 15 chars.")
     st.button("Generate secure password", key = "pw_button", on_click = generate_pw)
 
 

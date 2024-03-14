@@ -8,7 +8,7 @@ This simple Python script generates secure passwords and passphrases to enhance 
 - Generate random passwords of 14 characters.
 - Generate passphrases using a word list.
 - Adjustable level of complexity for passwords.
-- Easy-to-use command-line interface.
+- Easy-to-use interface.
 
 ## Usage
 

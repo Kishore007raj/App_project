@@ -1,6 +1,6 @@
 #---PIP PACKAGES----#
 import streamlit as st
-from random_word import ApiNinjas
+from ApiNinjas import randomword
 import requests
 
 #---BUILT IN PYTHON PACKAGES----#
@@ -94,7 +94,7 @@ ocol1, ocol2, ocol3 = st.columns([1,4,1])
 with ocol1:
     ''
 with ocol2:
-    st.caption("Generated secure PW")
+    st.caption("Generated secure password")
     "---"
     st.subheader(st.session_state["pw"])
     "---"

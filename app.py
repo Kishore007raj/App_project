@@ -8,7 +8,7 @@ import secrets
 import string
 
 #---STREAMLIT SETTINGS---#
-page_title = "PW & PW-Sentence Generator"
+page_title = "Password & Passphrase Generator"
 page_icon = ":building_construction:"
 layout = "centered"
 
@@ -30,8 +30,6 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 
 #---PW GENERATOR FUNCTION--#
 def generate_pw()->None:
-    """Uses the string module to get the letters and digits that make up the alphabet used to generate the random characters. These characters are
-    appended to the pwd string which is then assigned to the session_state variable [pw]"""
     letters = string.ascii_letters
     digits = string.digits  
     alphabet = letters + digits

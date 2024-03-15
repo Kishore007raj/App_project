@@ -1,21 +1,40 @@
-
 # Password Generator
 
-This simple Python script generates secure passwords and passphrases to enhance your online security. It allows you to create passwords with a length of 14 characters and passphrases consisting of 5 words. 
+This is a simple password generator implemented in Python. It allows you to create passwords with a length of 14 characters and passphrases consisting of 5 words
 
 ## Features
 
-- Generate random passwords of 14 characters.
-- Generate passphrases using a word list.
-- Adjustable level of complexity for passwords.
-- Easy-to-use interface.
+- Generate strong and secure passwords
+- Generate passphrases using a word list
+- Easy-to-use interface
 
-## Usage
+## How to Use
 
-### Generating Passwords
+1. Clone the repository to your local machine:
 
-To generate a random password with a length of 14 characters, run the script and choose the option for password generation.
+```
+git clone https://github.com/SolveniteOP/Password-Generator.git
+```
 
-### Generating Passphrases
+2. Navigate to the project directory:
 
-To generate a passphrase consisting of 5 words, run the script and choose the option for passphrase generation.
+```
+cd Password-Generator
+```
+
+3. Run the script:
+
+```
+streamlit run \app.py
+```
+
+5. Once completed, the generated password will be displayed in the screen.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- This project was inspired by the need for a simple and customizable password generator.
+- Special thanks to the Python community for providing valuable resources and guidance.

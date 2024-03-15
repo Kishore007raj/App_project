@@ -9,6 +9,7 @@ import string
 
 #---STREAMLIT SETTINGS---#
 page_title = "PW & PW-Sentence Generator"
+page_icon = ":building_construction:"
 layout = "centered"
 
 #---PAGE CONFIG---#

@@ -9,7 +9,6 @@ import string
 
 #---STREAMLIT SETTINGS---#
 page_title = "PW & PW-Sentence Generator"
-page_icon = ":building_construction:"
 layout = "centered"
 
 #---PAGE CONFIG---#
@@ -45,9 +44,6 @@ def generate_pw()->None:
 
     #---GET RANDOM WORD---#
 def get_random_word()->str:
-    """Uses the API Ninja API to request a word string. 
-       This string is then parsed to extract only the
-       word and return it."""
     api_url = 'https://api.api-ninjas.com/v1/randomword'
     response = requests.get(api_url, headers={'X-Api-Key': st.secrets.API_NINJA})
     if response.status_code == requests.codes.ok:
@@ -60,8 +56,6 @@ def get_random_word()->str:
     
      #---GENERATING THE PHRASE---#
 def generate_ps()->None:
-    """Uses the get_random_word function to request five words. These are concatenated into a string with dashes and then
-    assigned these to the session_state variable [pw] """
     passphrase = ""
     for x in range(5):
         passphrase += f"{get_random_word()}-"

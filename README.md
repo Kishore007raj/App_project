@@ -22,6 +22,7 @@ To generate a passphrase consisting of 5 words, run the script and choose the op
 
 ## Installation 
 
-1. Clone the repository
+1. Clone the repository:
+git clone https://github.com/SolveniteOP/Password-Generator.git
 2. Navigate to app.py
 3. Run using streamlit \app.py

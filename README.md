@@ -32,5 +32,6 @@ streamlit run \app.py
 
 ## Acknowledgments
 
-- This project was inspired by the need for a simple and customizable password generator.
+- This project was inspired by the need for a simple password generator.
 - Special thanks to the Python community for providing valuable resources and guidance.
+- This is one of my first ever projects made!

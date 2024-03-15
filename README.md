@@ -19,3 +19,9 @@ To generate a random password with a length of 14 characters, run the script and
 ### Generating Passphrases
 
 To generate a passphrase consisting of 5 words, run the script and choose the option for passphrase generation.
+
+## Installation 
+
+1. Clone the repository
+2. Navigate to app.py
+3. Run using streamlit \app.py

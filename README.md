@@ -1,6 +1,6 @@
-# PyPassGen - A simple password and passphrase Generator
+# PyPassGen - A simple Password and Passphrase Generator
 
-This is a simple password generator implemented in Python and Streamlit. It allows you to create passwords with a length of 15 characters and passphrases consisting of 5 words
+This is a simple password generator implemented using Python and Streamlit. It allows you to create passwords with a length of 15 characters and passphrases consisting of 5 words
 
 ## Features
 

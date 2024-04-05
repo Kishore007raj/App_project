@@ -7,6 +7,7 @@ This is a simple password generator implemented using Python and Streamlit. It a
 - Generate strong and secure passwords and passphrases
 - Generate passphrases using a word list
 - Easy-to-use interface
+- Generate passwords and passphrases within seconds
 
 ## How to Use
 
@@ -28,7 +29,7 @@ cd PyPassGen
 streamlit run \app.py
 ```
 
-5. Once completed, the generated password or passphrase will be displayed in the screen.
+5. Once completed, the generated password or passphrase will be displayed on screen.
 
 ## Acknowledgments
 
